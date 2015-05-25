@@ -1,6 +1,6 @@
 # jstransformer-autoprefixer
 
-Transformer that converts a string to foo.
+[Autoprefixer](https://github.com/postcss/autoprefixer) support for [JSTransformers](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
