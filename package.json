@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "autoprefixer-core": "^5.1.11"
+    "autoprefixer-core": "^6.0.1"
   },
   "devDependencies": {
     "istanbul": "^0.3.5",
