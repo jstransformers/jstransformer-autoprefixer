@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-autoprefixer",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Autoprefixer support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -13,17 +13,22 @@
     "autoprefixer-core": "^5.1.11"
   },
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-autoprefixer.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
