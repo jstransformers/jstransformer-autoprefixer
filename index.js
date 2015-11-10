@@ -1,10 +1,16 @@
 'use strict';
 
-var autoprefixer = require('autoprefixer-core');
+var autoprefixer = require('autoprefixer');
+var postcss = require('jstransformer-postcss');
 
 exports.name = 'autoprefixer';
 exports.outputFormat = 'css';
 
-exports.render = function (str, options) {
-  return autoprefixer(options).process(str).css;
+exports.renderAsync = function (str, options) {
+  var opts = {
+    plugins: [
+      autoprefixer(options)
+    ]
+  }
+  return postcss.renderAsync(str, opts);
 };

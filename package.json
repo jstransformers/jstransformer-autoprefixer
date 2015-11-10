@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-autoprefixer",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Autoprefixer support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -10,7 +10,8 @@
     "index.js"
   ],
   "dependencies": {
-    "autoprefixer-core": "^5.1.11"
+    "autoprefixer": "^6.0.3",
+    "jstransformer-postcss": "^1.1.0"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
