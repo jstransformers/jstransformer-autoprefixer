@@ -4,7 +4,7 @@ var autoprefixer = require('autoprefixer');
 var postcss = require('jstransformer-postcss');
 
 exports.name = 'autoprefixer';
-exports.inputFormats = ['css'];
+exports.inputFormats = ['css', 'autoprefixer'];
 exports.outputFormat = 'css';
 
 exports.renderAsync = function (str, options) {
