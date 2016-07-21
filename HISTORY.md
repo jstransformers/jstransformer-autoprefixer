@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0: 2016-07-21
+
+- Update Boilerplate
+
 ## v1.0.0: 2015-11-03
 
 - Updated to `autoprefixer@^6.0.3`
