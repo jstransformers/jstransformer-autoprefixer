@@ -1,0 +1,9 @@
+{
+  "browsers": [
+    "> 1%",
+    "ie 8"
+  ],
+  "from": "input.css",
+  "to": "expected.css",
+  "map": true
+}

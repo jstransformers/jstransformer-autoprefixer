@@ -8,10 +8,8 @@ exports.inputFormats = ['autoprefixer', 'css'];
 exports.outputFormat = 'css';
 
 exports.renderAsync = function (str, options) {
-  var opts = {
-    plugins: [
-      autoprefixer(options)
-    ]
-  }
-  return postcss.renderAsync(str, opts);
+  options.plugins = [
+    autoprefixer(options)
+  ];
+  return postcss.renderAsync(str, options);
 };

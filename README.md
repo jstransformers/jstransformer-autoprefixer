@@ -18,7 +18,8 @@ var autoprefixer = require('jstransformer')(require('jstransformer-autoprefixer'
 
 var css = 'a { transition: transform 1s }';
 
-autoprefixer.render(css).body
+// {} can contain any Autoprefixer and PostCSS options
+autoprefixer.render(css, {}).body
 // => a { -webkit-transition: -webkit-transform 1s; transition: transform 1s }
 ```
 
