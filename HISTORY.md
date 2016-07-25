@@ -1,9 +1,5 @@
 # Changelog
 
-## v1.1.1: 2016-07-25
-
-- Update Boilerplate
-
 ## v1.1.0: 2016-07-25
 
 - Add support for synchronous rendering
