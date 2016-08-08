@@ -9,7 +9,7 @@ exports.inputFormats = ['autoprefixer', 'css'];
 exports.outputFormat = 'css';
 
 exports.render = function (str, options) {
-  return postcss.render(str, Object.assign({
+  return postcss.render(str, objectAssign({
     plugins: [
       autoprefixer(options)
     ]
@@ -17,7 +17,7 @@ exports.render = function (str, options) {
 };
 
 exports.renderAsync = function (str, options) {
-  return postcss.renderAsync(str, Object.assign({
+  return postcss.renderAsync(str, objectAssign({
     plugins: [
       autoprefixer(options)
     ]
