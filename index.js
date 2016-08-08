@@ -2,21 +2,24 @@
 
 var autoprefixer = require('autoprefixer');
 var postcss = require('jstransformer-postcss');
+var objectAssign = require('object-assign');
 
 exports.name = 'autoprefixer';
 exports.inputFormats = ['autoprefixer', 'css'];
 exports.outputFormat = 'css';
 
 exports.render = function (str, options) {
-  options.plugins = [
-    autoprefixer(options)
-  ];
-  return postcss.render(str, options);
+  return postcss.render(str, Object.assign({
+    plugins: [
+      autoprefixer(options)
+    ]
+  }, options));
 };
 
 exports.renderAsync = function (str, options) {
-  options.plugins = [
-    autoprefixer(options)
-  ];
-  return postcss.renderAsync(str, options);
+  return postcss.renderAsync(str, Object.assign({
+    plugins: [
+      autoprefixer(options)
+    ]
+  }, options));
 };

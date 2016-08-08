@@ -11,7 +11,8 @@
   ],
   "dependencies": {
     "autoprefixer": "^6.0.3",
-    "jstransformer-postcss": "^1.2.0"
+    "jstransformer-postcss": "^1.2.0",
+    "object-assign": "^4.1.0"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
