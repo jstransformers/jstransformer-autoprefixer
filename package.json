@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-autoprefixer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Autoprefixer support for JSTransformers.",
   "keywords": [
     "jstransformer",
