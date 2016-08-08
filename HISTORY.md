@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.2: 2016-08-08
+
+- Fix on platforms where `Object.assign()` is not available
+
 ## v1.1.1: 2016-08-08
 
 - Add support for `options` being `null` or `undefined`
