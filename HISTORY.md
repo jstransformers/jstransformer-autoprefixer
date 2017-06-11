@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.0: 2017-06-11
+
+- Update `autoprefixer  ^6.0.3  →  ^7.1.1`
+
 ## v1.1.2: 2016-08-08
 
 - Fix on platforms where `Object.assign()` is not available
