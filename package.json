@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "autoprefixer": "^6.0.3",
+    "autoprefixer": "^7.0.0",
     "jstransformer-postcss": "^1.2.0",
     "object-assign": "^4.1.0"
   },
