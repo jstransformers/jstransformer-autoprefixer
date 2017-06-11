@@ -1,8 +1,8 @@
 'use strict'
 
-var autoprefixer = require('autoprefixer')
-var postcss = require('jstransformer-postcss')
-var objectAssign = require('object-assign')
+const autoprefixer = require('autoprefixer')
+const postcss = require('jstransformer-postcss')
+const objectAssign = require('object-assign')
 
 exports.name = 'autoprefixer'
 exports.inputFormats = ['autoprefixer', 'css']
