@@ -1,7 +1,5 @@
 # jstransformer-autoprefixer
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-autoprefixer.svg)](https://greenkeeper.io/)
-
 [Autoprefixer](https://github.com/postcss/autoprefixer) support for [JSTransformers](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-autoprefixer/master.svg)](https://travis-ci.org/jstransformers/jstransformer-autoprefixer)
