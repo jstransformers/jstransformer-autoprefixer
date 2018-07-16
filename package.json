@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "autoprefixer": "^8.5.1",
+    "autoprefixer": "^9.0.0",
     "jstransformer-postcss": "^1.2.0",
     "object-assign": "^4.1.0"
   },
